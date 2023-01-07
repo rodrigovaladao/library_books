@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment I - RDESOU10</title>
+
+    <link rel="stylesheet" media="screen" href="css/main.css" />
+    <script
+      type="text/javascript"
+      language="JavaScript"
+      src="js/availableBooks.js"
+    ></script>
+  </head>
+
+  <body onLoad="javascript:displayCart()">
+    <div class="container">
+      <header><h1>Welcome to our Book Store</h1></header>
+      <div class="content">
+        <main>
+          <h2>Shopping cart</h2>
+
+          <div class="bookRow">
+            <div id="allBooks"></div>
+            <!--Loading cart -->
+          </div>
+
+          <div class="bookRow">
+            <br />
+            <div id="confirmMessage"></div>
+            <div class="cartOptions">
+              <button class="submit-button" onclick="confirmOrder()">
+                Confirm Order
+              </button>
+              <button class="submit-button" onclick="clearAllBooks()">
+                Clear all Books
+              </button>
+            </div>
+          </div>
+        </main>
+        <aside class="left-sidebar">
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inquiry.html">Inquiry</a></li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+          </ul>
+        </aside>
+        <!--<aisde class="right-sidebar">RIGHT SIDE</aside>-->
+      </div>
+      <footer>
+        <h4>Copyright © 2022 Rodrigo Valadao<br />All Rights Reserved</h4>
+      </footer>
+    </div>
+  </body>
+</html>

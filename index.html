@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment I - RDESOU10</title>
+
+    <link rel="stylesheet" media="screen" href="css/main.css" />
+    <script
+      type="text/javascript"
+      language="JavaScript"
+      src="js/availableBooks.js"
+    ></script>
+  </head>
+
+  <body onLoad="javascript:displayHome()">
+    <div class="container">
+      <header><h1>Welcome to our Book Store</h1></header>
+      <div class="content">
+        <main>
+          <h2>About Us</h2>
+          <p>
+            Opened in 2022 on the Gold Coast, our online book store aims to
+            bring knowledge through books to all people. We aim to be
+            Queensland's largest book store by the end of the year.
+          </p>
+          <hr />
+
+          <h2>Available Books</h2>
+
+          <!-- <input type="button" value="Refresh" onclick="refreshListBook()" /> -->
+
+          <div class="bookRow">
+            <p id="allBooks"></p>
+            <!--Loading books -->
+          </div>
+        </main>
+        <aside class="left-sidebar">
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inquiry.html">Inquiry</a></li>
+            <li><a href="cart.html">Shopping Cart</a></li>
+          </ul>
+        </aside>
+
+        <!--<aisde class="right-sidebar">RIGHT SIDE</aside>-->
+      </div>
+      <footer>
+        <h4>Copyright © 2022 Rodrigo Valadao<br />All Rights Reserved</h4>
+      </footer>
+    </div>
+  </body>
+</html>
